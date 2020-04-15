@@ -10,7 +10,7 @@ rsa_key_size=2048
 staging=0
 # config dir
 conf_dir="./conf"
-www_dir="./www"
+www_dir="./public"
 # /configuration
 
 # check www and conf dir or create it
