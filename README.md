@@ -27,5 +27,5 @@ sudo crontab -u root -e
 Insert this cron task:
 
 ```
-@daily sudo nginx -t && sudo nginx -s reload &>> /var/log/nginx-cron.log
+@daily sudo nginx -t && sudo nginx -s reload >> /var/log/nginx-cron.log 2>&1
 ```
